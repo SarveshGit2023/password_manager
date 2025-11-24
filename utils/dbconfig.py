@@ -7,8 +7,8 @@ def dbconfig():
   try:
     db = mysql.connector.connect(
       host ="localhost",
-      user ="pm",
-      passwd ="password"
+      user ="root",
+      passwd ="rootpass"
     )
     # printc("[green][+][/green] Connected to db")
   except Exception as e:
